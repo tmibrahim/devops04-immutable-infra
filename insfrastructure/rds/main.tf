@@ -7,7 +7,7 @@ resource "aws_db_instance" "default" {
     allocated_storage = 20
     storage_type = "gp2"
     engine = "postgres"
-    instance_class = "db.t2.micro"
+    instance_class = "db.t3.micro"
     db_name = "contacts_db"
     username = "postgres"
     password = var.password
