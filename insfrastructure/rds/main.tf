@@ -12,6 +12,6 @@ resource "aws_db_instance" "default" {
     username = "postgres"
     password = var.password
     identifier = var.id
-    vpc_security_group_ids = [ "vpc-0aea46b717f801cc7" ]
+    # pc_security_group_ids = [ "vpc-0aea46b717f801cc7" ]
     publicly_accessible = true
 }
